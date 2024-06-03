@@ -97,7 +97,8 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag,
+.nav-pills .show>.nav-link {
 	color: #fff;
 	background-color: #65173e;
 	border-radius:0 ;
@@ -244,7 +245,8 @@ input[type="submit"] {
 
 footer {
 	font-size: 18px;
-	align-items: center;
+    justify-content: center;
+	padding-top: 10px;
 }
 
 @media all and (max-width: 1180px) {
